@@ -1,7 +1,4 @@
-
-include .deps/src/build-kit/src/mk/common.mk
-
-PROJECT:=example-project
+PROJECT:=quay-street-hello-world
 PROJECT_DESCRIPTION:=An example project of using infra-kit
 
 NIX_MODULES=nix pulumi aws secrets
