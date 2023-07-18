@@ -26,8 +26,11 @@ endif
 
 # --
 # ## Pulumi Configuration
-PULUMI_STACK=nzx/$(PROJECT)
+PULUMI_STACK=5forcegees/$(PROJECT)
 PULUMI_VERSION=3.67.1
+PULUMI_ORGANISATION=5forcegees
+PULUMI_NAMING_SCHEME=V1
+PULUMI_PROJECT=$(PROJECT)
 # PULUMI_DEBUG=true
 
 PATH_LAMBDA_SOURCES=$(wildcard src/py/infrakit/examples/lambdafunctions/*.py src/py/infrakit/examples/lambdafunctions/*/*.py src/py/infrakit/examples/lambdafunctions/*/*/*.py)
@@ -56,7 +59,7 @@ USE_BIN+=python openssl env sh aws-lambda-rie zip pulumi
 
 USE_PYTHON_MODULE=\
 	pulumi:$(SOURCE_PYPI)\
-	pulumi-aws:$(SOURCE_PYPI)\
+	pulumi_aws:$(SOURCE_PYPI)\
 	boto3:$(SOURCE_PYPI)\
 	awslambdaric:$(SOURCE_PYPI)\
 	buildkit:.deps/src/build-kit/src/py/buildkit
