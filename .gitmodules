@@ -1,0 +1,3 @@
+[submodule ".deps/src/build-kit"]
+	path = .deps/src/build-kit
+	url = git@github.com:NZX/build-kit.git
