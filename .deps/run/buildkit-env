@@ -1,0 +1,1 @@
+.deps/bin/nix-shell    --pure /home/vboxuser/code/nzxhelloworld/build/nix-environment.403be18a2d1f3f28e13f6109312691b4.nix --run "$(printf "%q " "$@")"

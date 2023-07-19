@@ -1,0 +1,1 @@
+../../src/build-kit/src/git/commit-msg.00-validate-message.sh

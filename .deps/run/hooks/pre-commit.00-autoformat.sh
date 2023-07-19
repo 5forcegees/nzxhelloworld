@@ -1,0 +1,1 @@
+../../src/build-kit/src/git/pre-commit.00-autoformat.sh

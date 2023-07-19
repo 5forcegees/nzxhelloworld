@@ -1,4 +1,4 @@
-name: nzx-hello-world
+name: quay-street-hello-world
 runtime:
   name: python
   options:

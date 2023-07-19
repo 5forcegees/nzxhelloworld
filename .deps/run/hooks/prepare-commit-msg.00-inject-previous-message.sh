@@ -1,0 +1,1 @@
+../../src/build-kit/src/git/prepare-commit-msg.00-inject-previous-message.sh

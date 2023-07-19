@@ -10,11 +10,12 @@ from infrakit.examples.lambdafunctions import default, demo
 
 
 PROJECT = "example-project"
-AWS_REGION = "ap-southeast-2"
-AWS_ACCOUNT = "882318459086"
-ENVIRONMENT = "development"
+#AWS_REGION = "ap-southeast-2"
+#AWS_ACCOUNT = "882318459086"
+#ENVIRONMENT = "development"
 PATH_BUILD_LAMBDA_ZIP = os.environ["PATH_BUILD_LAMBDA_ZIP"]
 
+print("PATH_BUILD_LAMBDA_ZIP: "+ PATH_BUILD_LAMBDA_ZIP)
 
 apiDomains = {
     "development": "development-example-project-tasks.nzx.dev",
